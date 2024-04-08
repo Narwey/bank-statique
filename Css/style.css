@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Saira:wght@700&display=swap');
 :root {
     --BgColor: #030F21;
     --white: #ffffff;
@@ -9,6 +10,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: 'Saira';
 }
 
 body {
@@ -236,6 +238,7 @@ footer {
 .paiement-img {
     display: flex;
     justify-content: space-between;
+    padding-right: 30px;
 }
 
 .paiement-img > img {
