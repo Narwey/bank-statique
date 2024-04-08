@@ -244,7 +244,8 @@ footer {
 .paiement-img {
     display: flex;
     justify-content: space-between;
-    padding-right: 30px;
+    padding-right: 20px;
+    font-size: 14px;
 }
 
 .paiement-img > img {
