@@ -1,6 +1,7 @@
 :root {
     --BgColor: #030F21;
     --white: #ffffff;
+    scroll-behavior: smooth;
   }
 *{
     margin: 0;
