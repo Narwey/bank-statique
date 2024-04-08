@@ -171,8 +171,8 @@ footer {
 
 .gestion-carts > h2  {
     color: var(--white);
-    font-size: 2em;
-    margin-bottom: 10px;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .gestion-carts > p {
@@ -293,12 +293,15 @@ input[type=text]{
     margin: 0px 40px;
 }
 
+
+
 @media screen and (max-width:900px) {
 
     .paiement-responsive {
         display: block;
     }
 
+    
     .gestion-carts > h2  {
         color: var(--white);
         font-size: 3em;
@@ -471,6 +474,12 @@ input[type=text]{
 @media screen and (max-width:500px) {
     .cart-resp-one-footer {
         flex-direction: column;
+    }
+
+    .gestion-carts > h2  {
+        color: var(--white);
+        font-size: 30px;
+        margin-bottom: 20px;
     }
 
     .cart-width {
