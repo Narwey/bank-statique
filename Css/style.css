@@ -1,0 +1,501 @@
+:root {
+    --BgColor: #030F21;
+    --white: #ffffff;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--BgColor);
+    color: var(--white);
+}
+
+.nav {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav a {
+    color: var(--white);
+}
+
+.nav .nav-links .list {
+    display: flex;
+}
+
+.nav .nav-links .list li {
+    margin-left: 30px;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    right: 50px;
+    top: 40px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.top-section {
+    background-image:linear-gradient(#3b448c ,#3644b3);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: 50px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.text-h {
+    color: var(--white);
+    font-size:3em;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.text-p {
+    color: var(--white);
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    text-align: center;
+    background-color: var(--white);
+    padding: 15px;
+    border: 0;
+    border-radius: 20px;
+}
+
+.Carts {
+    width: 50%;
+    margin-top: 100px  ;
+}
+
+.cart-image {
+    width: 100%;
+}
+
+.Pq-text {
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Avantages-h {
+    margin-bottom: 80px;
+    text-align: center;
+    color: var(--white);
+}
+
+.Avantages-hr {
+    margin-bottom: 80px;
+    text-align: center;
+    color: var(--white);
+    margin: 40px 20px;
+}
+
+.Avantages-hg {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--white);
+}
+
+
+footer {
+    margin-top: 100px;
+}
+
+.Pq-para {
+    color: var(--white);
+    text-align: center;
+}
+
+.Av-Serdina {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin: 20px;
+}
+
+.Avn-Serdina {
+    width: 33%;
+}
+
+.Av-text {
+    color: var(--white);
+    font-size: x-large;
+    margin-bottom: 15px;
+}
+
+.Av-para {
+    color: var(--white);
+    font-size: small;
+    margin-bottom: 20px;
+}
+
+.icones-av {
+    width: 25%;
+}
+
+.valeur {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gestion {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 80px;
+}
+
+.girl {
+    width: 80%;
+}
+
+.gestion-carts {
+    margin-bottom: 30px;
+}
+
+.gestion-carts > h2  {
+    color: var(--white);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.gestion-carts > p {
+    color: var(--white);
+    font-size: em;
+}
+
+.partenaire {
+    display: flex;
+    justify-content: center;
+}
+
+.partenaire > img {
+    width: 30%;
+}
+
+.paiement {
+    display: flex;
+    color: var(--white);
+    justify-content: space-between;
+    margin: 100px;
+    gap: 10px;
+}
+
+.Cartes {
+    font-size: 3em;
+    color: var(--white);
+    text-align: center;
+    margin: 100px 30px 100px 30px
+}
+
+.Cartes-rejoindre {
+    font-size: 3em;
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.cart-one {
+    background-color: #8a0b7b;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cart-two {
+    background-color: #3644b3;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cart-three {
+    background-color: #002A66;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.paiement-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paiement-img > img {
+    width: 40%;
+}
+
+.paiement-responsive {
+    display: none;
+}
+
+.technologies-first {
+    display: flex;
+    background-color: #2188ad;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.technologies-border {
+    border-radius: 10px;
+    background-color: #2188ad;
+    margin: 20px;
+    padding: 10px;
+}
+
+.technologies-footer {
+    display: flex;
+}
+
+.technologies {
+    background-color: #053242;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 40px;
+}
+
+
+input[type=text]{
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+}
+
+.form {
+    margin: 0px 250px 0px 250px;
+    margin-bottom: 100px;
+}
+
+.footer-buttom {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
+
+@media screen and (max-width:900px) {
+
+    .paiement-responsive {
+        display: block;
+    }
+
+    .gestion-carts > h2  {
+        color: var(--white);
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+
+
+    .form {
+        margin: 0px 50px 0px 50px;
+    }
+
+    .nav {
+        padding: 0;
+    }
+
+    .Av-Serdina {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .Avn-Serdina {
+        width: 80%;
+    }
+
+    .Av-Serdina> .Avn-Serdina > img {
+        width: 20%;
+        margin-bottom: 20px;
+    }
+
+    .gestion-carts {
+        margin-bottom: 4em;
+    }
+
+    .gestion-carts > h2 {
+        font-size: 20px ;
+        margin-bottom: 20px;
+    }
+
+    .gestion-carts > p {
+        text-align: start;
+    }
+
+    .valeur {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .partenaire {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .partenaire img {
+        width: 70%;
+    }
+
+    .girl {
+        display: none;
+    }
+
+    header {
+        margin-top: 120px;
+    }
+
+    .nav .Logo {
+        position: absolute;
+        top:30px;
+        left: 50px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .nav-links {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         background-color: var(--BgColor);
+         height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-left: -100%;
+         transition: all 0.5s ease;
+    }
+
+    .nav-links.mobile-menu {
+        margin-left: 0;
+    }
+
+
+    .nav-links ul {
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav .nav-links .list li {
+        margin: 15px 0;
+        font-size: 1.2rem;
+    }
+
+    .paiement {
+        display: none;
+    }
+
+    .paiement-responsive-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cart-resp-one {
+        border-radius: 10px;
+        background-color: #8a0b7b;
+        margin: 30px;
+    }
+
+    .cart-resp-two {
+        border-radius: 10px;
+        background-color: #3644b3;
+        margin: 30px;
+    }
+
+    .cart-resp-three {
+        border-radius: 10px;
+        background-color: #002A66;
+        margin: 30px;
+    }
+
+    .cart-resp-one-footer {
+        display: flex;
+        flex: 1;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .cart-width {
+        width: 50%;
+    }
+    
+
+    .cart-resp-text {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .style-form {
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+
+    .text-h {
+        font-size: 2em;
+    }
+
+    .text-p {
+        font-size: 15px;
+    }
+
+    
+}
+
+@media screen and (max-width:500px) {
+    .cart-resp-one-footer {
+        flex-direction: column;
+    }
+
+    .cart-width {
+        width: 100%;
+    }
+
+    .partenaire img {
+        width: 100%;
+    }
+
+    .paiement-responsive {
+        display: block;
+    }
+
+    .technologies-footer {
+        flex-direction: column;
+    }
+
+    .Av-Serdina> .Avn-Serdina > img {
+        width: 30%;
+    }
+    
+    .Av-text {
+        margin-top: 10px;
+        font-size: 2em;
+    }
+}
+
