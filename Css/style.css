@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Saira:wght@700&display=swap');
+
 :root {
     --BgColor: #030F21;
     --white: #ffffff;
@@ -10,12 +10,12 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: 'Saira';
 }
 
 body {
     background-color: var(--BgColor);
     color: var(--white);
+    font-family:'lato';
 }
 
 .nav {
@@ -204,7 +204,7 @@ footer {
     font-size: 3em;
     color: var(--white);
     text-align: center;
-    margin: 100px 30px 100px 30px
+    margin: 0px 30px 80px 30px
 }
 
 .Cartes-rejoindre {
@@ -217,21 +217,21 @@ footer {
 
 
 .cart-one {
-    background-color: #8a0b7b;
+    background-color: #1C0D32;
     border-radius: 10px;
     padding: 10px;
     width: 30%;
 }
 
 .cart-two {
-    background-color: #3644b3;
+    background-color: #0D134B;
     border-radius: 10px;
     padding: 10px;
     width: 30%;
 }
 
 .cart-three {
-    background-color: #002A66;
+    background-color: #031633;
     border-radius: 10px;
     padding: 10px;
     width: 30%;
@@ -428,19 +428,19 @@ input[type=text]{
 
     .cart-resp-one {
         border-radius: 10px;
-        background-color: #8a0b7b;
+        background-color: #1C0D32;
         margin: 30px;
     }
 
     .cart-resp-two {
         border-radius: 10px;
-        background-color: #3644b3;
+        background-color: #0D134B;
         margin: 30px;
     }
 
     .cart-resp-three {
         border-radius: 10px;
-        background-color: #002A66;
+        background-color: #031633;
         margin: 30px;
     }
 
@@ -503,6 +503,10 @@ input[type=text]{
 
     .technologies-footer {
         flex-direction: column;
+    }
+    
+    .Carts {
+        display: none;
     }
 
     .Av-Serdina> .Avn-Serdina > img {
